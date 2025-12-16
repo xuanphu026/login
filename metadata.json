@@ -1,0 +1,5 @@
+{
+  "name": "DocuTranslate AI",
+  "description": "A professional document translation tool using Gemini AI to translate files (Excel, Word, CSV, Text) from Vietnamese to Japanese while preserving structure.",
+  "requestFramePermissions": []
+}
