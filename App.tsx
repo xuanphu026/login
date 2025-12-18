@@ -7,7 +7,6 @@ const App: React.FC = () => {
 
   const handleLoginSuccess = () => {
     // As requested by the user
-    alert("Đăng nhập thành công"); 
     setIsAuthenticated(true);
   };
 

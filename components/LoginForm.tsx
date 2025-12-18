@@ -50,7 +50,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
             <Input
               label="Tài khoản"
               type="text"
-              placeholder="Nhập admin"
+              placeholder="Nhập tài khoản"
               value={username}
               onChange={(e) => setUsername(e.target.value)}
               icon={<User className="w-5 h-5" />}
@@ -60,7 +60,7 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
             <Input
               label="Mật khẩu"
               type="password"
-              placeholder="Nhập admin"
+              placeholder="Nhập mật khẩu"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               icon={<Lock className="w-5 h-5" />}
@@ -82,15 +82,9 @@ export const LoginForm: React.FC<LoginFormProps> = ({ onLoginSuccess }) => {
               </Button>
             </div>
           </form>
-
-          <div className="mt-6 text-center">
-            <p className="text-xs text-gray-400">
-              Thông tin đăng nhập mặc định: admin / admin
-            </p>
-          </div>
         </div>
         <div className="px-8 py-4 bg-gray-50 border-t border-gray-100 flex justify-between items-center text-xs text-gray-500">
-          <span>&copy; 2024 Admin Portal</span>
+          <span>&copy; 2026 NGUYỄN XUÂN PHÚ</span>
           <a href="#" className="hover:text-indigo-600 transition-colors">Quên mật khẩu?</a>
         </div>
       </div>
